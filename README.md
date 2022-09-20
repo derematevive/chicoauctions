@@ -1,4 +1,4 @@
-# chicoauctions :construction: Proyecto en construcción :construction:
+# chico-auctions :construction: Proyecto en construcción :construction:
 Marketplace auctions Open Sources
 
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/derematevive.svg?style=social&label=Follow%20%40DeremateVive)](https://twitter.com/DeremateVive)
@@ -6,12 +6,8 @@ Marketplace auctions Open Sources
 :construction: Proyecto en construcción :construction:
 
 ## :hammer:Proyecto Chico-auctions 
-- `Objetivo 1`: 1- Lograr estructura directorio vista controlador, no centralizado em directorio.
-- `Objetivo 1a`: 1a- crear DB inicial configuracion, autogestion de idiomas, gelocalizacion, area gps. 
-- `Objetivo 2`: 2- Lograr entrega a petición desde un index, implementando hacia models
-- `Objetivo 3`: 3- Auto traslate de archivo y core desde directorio i18n
-- `Objetivo 4`: 4- Crear gestor de translate template file para smarty, function global
-- `Objetivo 5`: 5- crear sistema modular instalaciones de exteciones desde addons dir.
+- `Objetivo 1`: 1- Estructura directorio vista controlador (MVC), index principal no centralizado en un directorio.
+
 
 <div id="badges" align="center">
   <a href="https://www.facebook.com/DeremateVive">
