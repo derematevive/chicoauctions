@@ -13,7 +13,7 @@ Marketplace auctions Open Sources
 - `Objetivo 4`: 4- Crear gestor de translate template file para smarty, function global
 - `Objetivo 5`: 5- crear sistema modular instalaciones de exteciones desde addons dir.
 
-<div id="badges">
+<div id="badges" align="center">
   <a href="https://www.facebook.com/DeremateVive">
     <img src="https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook Badge"/>
   </a>
