@@ -1,7 +1,7 @@
 # chicoauctions
 Marketplace auctions Open Sources
 
-https://twitter.com/DeremateVive
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/derematevive.svg?style=social&label=Follow%20%40DeremateVive)](https://twitter.com/DeremateVive)
 
 https://www.facebook.com/DeremateVive
 
