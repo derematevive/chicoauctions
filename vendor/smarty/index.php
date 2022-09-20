@@ -16,21 +16,10 @@
 *  International Registered Trademark & Property of DeRemateVive
 */
 
-ob_start();
-
-if (!headers_sent()) {
-    header('Content-Type: text/html; charset=utf-8');
-    header('X-Frame-Options: sameorigin');
-    header('X-XSS-Protection: 1; mode=block');
-    header('X-Content-Type-Options: nosniff');
-    header_remove('x-powered-by');
-    header('Cache-control: private');
-}
-
-require(dirname(__FILE__).'/config/defines.php');
-
-/** implementar load app
-$app = ob_get_clean();
-
-$app = new App;
-*/
+header('Expires: Mon, 18 Jul 1997 07:00:00 GMT');
+header('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT');
+header('Cache-Control: no-store, no-cache, must-revalidate');
+header('Cache-Control: post-check=0, pre-check=0', false);
+header('Pragma: no-cache');
+header('Location: ../');
+exit;
