@@ -6,7 +6,14 @@ Marketplace auctions Open Sources
 :construction: Proyecto en construcción :construction:
 
 ## :hammer:Proyecto Chico-auctions 
+**PRIMERA ETAPA tiempo estimado cinco días**
 - `Objetivo 1`: 1- Estructura directorio vista controlador (MVC), index principal no centralizado en un directorio.
+- `Objetivo 2`: 2- Protección inicial directorios, gestion autoload automatizado, controller carga auto models DB open and closed.
+- `Objetivo 3`: 3- importar a DB por archivo sql, xlsx, trabajar con dos o mas base datos, dos o mas users.
+- `Objetivo 4`: 4- Consultas masivas a DB.
+- `Objetivo 5`: 5- Auto detectar idioma, zona, coordenadas GPS, forzar idem mode.
+- `Objetivo 6`: 6- Auto translation smarty tpl, core file PHP.
+
 
 
 <div id="badges" align="center">
