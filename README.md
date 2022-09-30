@@ -37,13 +37,13 @@ a otros sistemas ampliamente utilizados por los usuarios.
 - [License](#id-license)🏗️
 
 # 🚦 Control versiones
+
 | Nombre | Descripción | Colaborativo 
 | :---: | :---: | :---: |
 | Main 🏠| Default cambios | Documental - Not clone
 | Hot-child 🥵 | localhost | Dowlond - Not Clone
 | ice-child 🥶 | test | clone    
 | baby-talking 👶 | Inicial | Not Clone 
-
 
 ## 😎 ¿Quieres contribuir con el código? 
 
