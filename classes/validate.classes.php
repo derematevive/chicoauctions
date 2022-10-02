@@ -363,7 +363,8 @@ class Validate
         '/^(?=.*\d)(?=.*[@#\-_$%^&+=§!\?])(?=.*[a-z])(?=.*[A-Z])[0-9A-Za-z@#\-_$%^&+=§!\?]{8,20}$/',
         $password)
     */
-    /** 
+
+    /**
      * @note: Mejorar para embiguedad, que sirva para todo el nucleo...
      */
     public static function isMailTemplate($value) : bool
@@ -394,4 +395,68 @@ class Validate
         }
         return false;
     }
+
+    /**
+     * NOTE : using the default locale
+     *
+     */
+    public static function ctypeAlpha(string $value) : bool
+    {
+        return ctype_alpha($value);
+    }
+
+    public static function ctypeAlnum(string $value) : bool
+    {
+        return ctype_alnum($value);
+    }
+
+    public static function ctypeCntrl(string $value) : bool
+    {
+        return ctype_cntrl($value);
+    }
+
+    public static function ctypeDigit(string $value) : bool
+    {
+        return ctype_digit($value);
+    }
+
+    /**
+     * NOTE idem  ctype_print(string $text): bool
+     */
+    public static function ctypeGraph(string $value) : bool
+    {
+        return ctype_graph($value);
+    }
+
+    /**
+     * solo minusculas
+     */
+    public static function ctypeLower(string $value) : bool
+    {
+        return ctype_lower($value);
+    }
+
+    public static function ctypePunct(string $value) : bool
+    {
+        return ctype_punct($value);
+    }
+
+    public static function ctypeSpace(string $value) : bool
+    {
+        return ctype_space($value);
+    }
+
+    /**
+     * solo mayusculas
+     */
+    public static function ctypeUpper(string $value) : bool
+    {
+        return ctype_upper($value);
+    }
+
+    public static function ctypeXdigit(string $value) : bool
+    {
+        return ctype_xdigit($value);
+    }
+
 }
